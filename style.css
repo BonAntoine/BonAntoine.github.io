@@ -13,8 +13,13 @@ h2 {
 	margin : auto;
 }
 
+#critique_list img {
+	height : 300px;
+  width : auto;
+}
+
 body {
-	background-color : rgb(178, 178, 178);
+	background-color : black;
 	background-image:url(img/background.jpg);
 	background-repeat : no-repeat;
   background-size : 70%;
@@ -65,4 +70,13 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #333;
+}
+
+#critique_article {
+	background-color : (206, 206, 206);
+	font-size : 18px;
+	width: 40%;
+  height: 40%;
+	text-align: center;
+	margin : auto;
 }
