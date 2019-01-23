@@ -18,6 +18,10 @@ h2 {
   width : auto;
 }
 
+#critique_article {
+	background-color: white;
+}
+
 body {
 	background-color : black;
 	background-image:url(img/background.jpg);
