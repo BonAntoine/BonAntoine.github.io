@@ -14,26 +14,30 @@ h2 {
 }
 
 #critique_list img {
-	height : 300px;
-  width : auto;
+	 max-width : 150px;
+  max-height: 300px;
+  float: left; 
+  display: list-item;
 }
 
 #critique_article {
 	background-color: white;
-}
+} 
 
 body {
 	background-color : black;
-	background-image:url(img/background.jpg);
+	background-image:url(img/background1.jpg);
+	max-width : 100%;
+  	max-height: 100%;
+  	background-attachment:fixed;
 	background-repeat : no-repeat;
-  background-size : 70%;
+  	background-size : 70%;
 	background-position : center;
 
 }
 
 #titre {
 	background-color : rgb(255, 255, 255);
-	border: 3px solid #73AD21;
 	height: 20%px;
   width: 30%;
 	text-align: center;
@@ -80,7 +84,45 @@ li a:hover {
 	background-color : (206, 206, 206);
 	font-size : 18px;
 	width: 40%;
+  	height: 40%;
+	text-align: center;
+	margin : auto;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	width: 100%;
+	position: center;
+}
+
+#présentation {
+	background-color : rgb(28, 28, 28);
+	color : white;
+	font-size : 18px;
+	width: 40%;
   height: 40%;
 	text-align: center;
 	margin : auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	  width : 70%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
