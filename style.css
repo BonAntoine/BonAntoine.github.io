@@ -15,8 +15,8 @@ h2 {
 
 #critique_list img {
 	 max-width : 150px;
-  max-height: 300px;
-  float: left; 
+  	max-height: 300px;
+  	float: left; 
   display: list-item;
 }
 
@@ -30,7 +30,7 @@ body {
 	max-width : 100%;
   	max-height: 100%;
   	background-attachment:fixed;
-	background-repeat : no-repeat;
+	background-repeat : repeat;
   	background-size : 70%;
 	background-position : center;
 
@@ -91,6 +91,7 @@ li a:hover {
 img {
 	margin-left: auto;
 	margin-right: auto;
+	align-items: 
 	padding: 0px;
 	width: 100%;
 	position: center;
@@ -126,3 +127,4 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
